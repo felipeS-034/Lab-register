@@ -11,8 +11,6 @@ class AppContainer extends HTMLElement {
         this.screen = Screens.register;
         this.attachShadow({ mode: 'open' });
     }
-    ;
-    ;
     connectedCallback() {
         var _a, _b;
         this.render();

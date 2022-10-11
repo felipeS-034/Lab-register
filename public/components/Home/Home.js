@@ -10,12 +10,11 @@ export class Home extends HTMLElement {
         if (!this.shadowRoot)
             return;
         this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href=" ./components/Home/style.css"
-        <article>
-        <image class="pantalla" src="./assets/instagram.png"></image>
-
-
-        </article>
+        <section>
+        <!--<image class="pantalla" src="./assets/instagram.png"></image>-->
+        <my-encabezado></my-encabezado>
+        <my-sugerencia></my-sugerencia>
+        </section>
         `;
     }
 }
