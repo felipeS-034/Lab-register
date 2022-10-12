@@ -1,4 +1,4 @@
-const data = [
+const dataSugerencias = [
     {
         "perfil": "./assets/Sugerencias/Bugatti.png",
         "user": "luisa.11:11",
@@ -20,4 +20,4 @@ const data = [
         "infouser": "sdvsdvsdv"
     }
 ];
-export default data;
+export default dataSugerencias;

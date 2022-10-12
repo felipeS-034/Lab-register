@@ -14,15 +14,6 @@ export class Home extends HTMLElement{
 
     render() {
 
-        const compts1 = dataSugerenias.map(({ perfil, user, infouser }) => `<section>
-            <my-sugerencias
-            perfil="${perfil}"
-            user="${user}"
-            infouser="${infouser}"
-            ></my-sugerencias>
-            </section>
-        `)
-
 
         const compts = data.map(({imageprofile, nameuser, location, imagecontent, likes, comentuser1, comentuser2, viewcoments, days, phtoprofile, username}) => ` <section>
             <my-profile
@@ -41,16 +32,25 @@ export class Home extends HTMLElement{
             </section>
         `)
 
+        const compts1 = dataSugerenias.map(({ perfil, user, infouser }) => `<section>
+        <my-sugerencias
+        perfil="${perfil}"
+        user="${user}"
+        infouser="${infouser}"
+        ></my-sugerencias>
+        </section>
+    `)
+
         
 
 
         if(!this.shadowRoot) return;
         this.shadowRoot.innerHTML = `<section>
         <my-encabezado></my-encabezado>
-        <my-historias></my-historias>
+        <!--<my-historias></my-historias>--->
         <my-sugerencia></my-sugerencia>
-        ${compts1.join("")}
         ${compts.join("")}
+        ${compts1.join("")}
         </section>
         `;
 

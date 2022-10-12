@@ -4,7 +4,7 @@ interface DataShape {
     infouser: string;
   }
   
-  const data: DataShape[] = [ 
+  const dataSugerencias: DataShape[] = [ 
    
        {
            "perfil" : "./assets/Sugerencias/Bugatti.png",
@@ -32,5 +32,5 @@ interface DataShape {
    
    ];
   
-  export default data;
+  export default dataSugerencias;
   
