@@ -1,9 +1,9 @@
-import { addPost } from "../../services/db.js";
+/*import { addPost } from "../../services/db.js";
 
 export class  AddPost extends HTMLElement{
-    username = "";
-    image = "";
-    comment = "";
+    nameuser = "";
+    imagecontent = "";
+    comentuser2 = "";
 
     constructor(){
         super();
@@ -16,11 +16,11 @@ export class  AddPost extends HTMLElement{
         const btn = this.shadowRoot?.querySelector("button");
         btn?.addEventListener("click", async ()=>{
             
-            if(this.username && this.image && this.comment) {
+            if(this.nameuser && this.imagecontent && this.comentuser2) {
                 const postData = {
-                    username: this.username,
-                    image: this.image,
-                    comment: this.comment
+                    username: this.nameuser,
+                    image: this.imagecontent,
+                    comment: this.comentuser2
                 }
                 try {
                     await addPost(postData);
@@ -45,17 +45,17 @@ export class  AddPost extends HTMLElement{
         
         usernameInput?.addEventListener("change",(evt) => {
             const value: string = (evt.target as HTMLInputElement).value || "";
-            this.username = value;
+            this.nameuser = value;
         });
 
         imageInput?.addEventListener("change",(evt) => {
             const value: string = (evt.target as HTMLInputElement).value || "";
-            this.image = value;
+            this.imagecontent = value;
         });
 
         commentInput?.addEventListener("change",(evt) => {
             const value: string = (evt.target as HTMLInputElement).value || "";
-            this.comment = value;
+            this.comentuser2 = value;
         });
     }
 
@@ -83,4 +83,4 @@ export class  AddPost extends HTMLElement{
     }
 }
 
-customElements.define("app-add-post", AddPost);
+customElements.define("app-add-post", AddPost);*/

@@ -7,15 +7,15 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
-import { getFirestore, collection, query, where, addDoc, getDocs } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-firestore.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+import { getFirestore, collection, query, where, addDoc, getDocs } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore.js";
 const firebaseConfig = {
-    apiKey: "AIzaSyCzeGyuWuL1PurYi3sRHq2VYVDVLFKSBbs",
-    authDomain: "taller-ig.firebaseapp.com",
-    projectId: "taller-ig",
-    storageBucket: "taller-ig.appspot.com",
-    messagingSenderId: "451909488603",
-    appId: "1:451909488603:web:63437e400723b89a1b61fe"
+    apiKey: "AIzaSyDo1OLK-0xr9lrG8w9IesACTeVYASuJP4A",
+    authDomain: "final-ac261.firebaseapp.com",
+    projectId: "final-ac261",
+    storageBucket: "final-ac261.appspot.com",
+    messagingSenderId: "675681675892",
+    appId: "1:675681675892:web:bf189afca9b021a5357f21"
 };
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
@@ -44,36 +44,5 @@ export const addUser = ({ email, password }) => __awaiter(void 0, void 0, void 0
     }
     catch (error) {
         return false;
-    }
-});
-export const addPost = ({ username, image, comment }) => __awaiter(void 0, void 0, void 0, function* () {
-    try {
-        yield addDoc(collection(db, "posts"), {
-            username,
-            image,
-            comment,
-            viewers: 0,
-            comments: 0,
-            profileimg: '../imagesPost/perfil.png'
-        });
-        return true;
-    }
-    catch (error) {
-        return false;
-    }
-});
-export const getPosts = () => __awaiter(void 0, void 0, void 0, function* () {
-    try {
-        const posts = [];
-        const querySnapshot = yield getDocs(collection(db, 'posts'));
-        querySnapshot.forEach((post) => {
-            posts.push(post.data());
-            console.log(post);
-        });
-        return posts;
-    }
-    catch (error) {
-        console.error(error);
-        alert('Ocurrió un error');
     }
 });
