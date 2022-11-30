@@ -7,7 +7,7 @@ export enum Attribute {
     "comentuser1" = "comentuser1",
     "comentuser2" = "comentuser2",
     "viewcoments" = "viewcoments",
-    "days" = "days",
+    "fecha" = "fecha",
 }
 
 class MyProfile extends HTMLElement{
@@ -19,7 +19,7 @@ class MyProfile extends HTMLElement{
     comentuser1?: string;
     comentuser2?: string;
     viewcoments?: string;
-    days?: string;
+    fecha?: string;
 
     static get observedAttributes(){
         const attrs: Record<Attribute,null> = {
@@ -31,7 +31,7 @@ class MyProfile extends HTMLElement{
             comentuser1: null,
             comentuser2: null,
             viewcoments: null,
-            days: null,
+            fecha: null,
         };
         return Object.keys(attrs);
     }
@@ -80,7 +80,7 @@ class MyProfile extends HTMLElement{
                     <h1 class="like"><b>${this.likes} Likes</b></h1>
                     <h1 class="comentuser"><b>${this.comentuser1}</b> ${this.comentuser2}</h1>
                     <h1 class="views">${this.viewcoments}</h1>
-                    <h1 class="day">${this.days}</h1>
+                    <h1 class="day">${this.fecha}</h1>
               </div>
           </section>
             `;

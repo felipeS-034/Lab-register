@@ -8,7 +8,7 @@ export var Attribute;
     Attribute["comentuser1"] = "comentuser1";
     Attribute["comentuser2"] = "comentuser2";
     Attribute["viewcoments"] = "viewcoments";
-    Attribute["days"] = "days";
+    Attribute["fecha"] = "fecha";
 })(Attribute || (Attribute = {}));
 class MyProfile extends HTMLElement {
     constructor() {
@@ -25,7 +25,7 @@ class MyProfile extends HTMLElement {
             comentuser1: null,
             comentuser2: null,
             viewcoments: null,
-            days: null,
+            fecha: null,
         };
         return Object.keys(attrs);
     }
@@ -60,7 +60,7 @@ class MyProfile extends HTMLElement {
                     <h1 class="like"><b>${this.likes} Likes</b></h1>
                     <h1 class="comentuser"><b>${this.comentuser1}</b> ${this.comentuser2}</h1>
                     <h1 class="views">${this.viewcoments}</h1>
-                    <h1 class="day">${this.days}</h1>
+                    <h1 class="day">${this.fecha}</h1>
               </div>
           </section>
             `;

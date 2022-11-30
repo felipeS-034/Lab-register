@@ -26,7 +26,7 @@
     font-family: Helvetica;
     width: 40px;
     left: 15px;
-    color: black;
+    color: rgb(92, 92, 92);
     font-size: 8px;
    
 }
@@ -36,4 +36,11 @@
     left: 310px;
     top:20px;
     position: absolute;
+}
+
+.flecha2{
+    width: 5px;
+    left: 10px;
+    top:5px;
+    position: relative;
 }

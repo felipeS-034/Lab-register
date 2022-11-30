@@ -1,4 +1,4 @@
-interface DataShape {
+export interface DataShape {
   imageprofile: string;
   nameuser: string;
   location: string;
@@ -7,7 +7,7 @@ interface DataShape {
   comentuser1: string;
   comentuser2: string;
   viewcoments: string;
-  days: string;
+  fecha: string;
   phtoprofile: string;
   username: string;
 }
@@ -22,7 +22,7 @@ const data: DataShape[] = [
          "comentuser1" : "kata_1303",
          "comentuser2" : "holi",
          "viewcoments" : "View all 7 comments",
-         "days" : "10 DAYS AGO",
+         "fecha" : "10 DAYS AGO",
          "phtoprofile" : "./assets/historias/me.png",
          "username" : "hola"
      },
@@ -36,7 +36,7 @@ const data: DataShape[] = [
          "comentuser1" : "luisa.11:11",
          "comentuser2" : "holi",
          "viewcoments" : "View all 5 comments",
-         "days" : "11 DAYS AGO",
+         "fecha" : "11 DAYS AGO",
          "phtoprofile" : "./assets/historias/chica.png",
          "username" : "hola"
      },
@@ -50,7 +50,7 @@ const data: DataShape[] = [
          "comentuser1" : "Richi-jeje",
          "comentuser2" : "program es lo mio",
          "viewcoments" : "View all 5 comments",
-         "days" : "13 DAYS AGO",
+         "fecha" : "13 DAYS AGO",
          "phtoprofile" : "./assets/historias/chica2.png",
          "username" : "hola"
      },
@@ -64,7 +64,7 @@ const data: DataShape[] = [
          "comentuser1" : "isabella.bogota",
          "comentuser2" : "holi",
          "viewcoments" : "View all 3 comments",
-         "days" : "15 DAYS AGO",
+         "fecha" : "15 DAYS AGO",
          "phtoprofile" : "./assets/historias/man.png",
          "username" : "hola"
      },
@@ -78,7 +78,7 @@ const data: DataShape[] = [
          "comentuser1" : "avitery17",
          "comentuser2" : "broo",
          "viewcoments" : "View all 5 comments",
-         "days" : "4 DAYS AGO",
+         "fecha" : "4 DAYS AGO",
          "phtoprofile" : "./assets/historias/isabella.png",
          "username" : "hola"
      },
@@ -92,7 +92,7 @@ const data: DataShape[] = [
          "comentuser1" : "sara_rozo_23",
          "comentuser2" : "tampoco somos ni seremos",
          "viewcoments" : "View all 5 comments",
-         "days" : "7 DAYS AGO",
+         "fecha" : "7 DAYS AGO",
          "phtoprofile" : "./assets/historias/man2.png",
          "username" : "hola"
      },
@@ -106,7 +106,7 @@ const data: DataShape[] = [
          "comentuser1" : "andres_santacruz03",
          "comentuser2" : "I'm the best",
          "viewcoments" : "View all 600K comments",
-         "days" : "1 DAYS AGO",
+         "fecha" : "1 DAYS AGO",
          "phtoprofile" : "./assets/historias/andrea.png",
          "username" : "hola"
      }

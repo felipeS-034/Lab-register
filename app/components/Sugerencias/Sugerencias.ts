@@ -1,7 +1,7 @@
 export enum Sugerencias {
     "perfil" = "perfil",
     "user" = "user",
-    "infouser" = "infouser"
+    "infouser" = "infouser",
 }
 
 class MySugerencias extends HTMLElement{
@@ -48,12 +48,10 @@ class MySugerencias extends HTMLElement{
             this.shadowRoot.innerHTML = `
             <link rel="stylesheet" href=" ./components/Sugerencias/style.css"
             <section>
-            <div class="cuadradoPrincipal">
-             <image class="userimg" src="${this.perfil}"></image>
+            
                 <h1 class="user">${this.user}</h1>
                 <h1 class="infouser">${this.infouser}</h1>
                 <h1 class="cambio">Seguir</h1>
-                </div>
             </section>
             `;
         }

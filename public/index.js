@@ -4,6 +4,7 @@ var Screens;
     Screens[Screens["login"] = 0] = "login";
     Screens[Screens["register"] = 1] = "register";
     Screens[Screens["home"] = 2] = "home";
+    Screens[Screens["addPost"] = 3] = "addPost";
 })(Screens || (Screens = {}));
 class AppContainer extends HTMLElement {
     constructor() {

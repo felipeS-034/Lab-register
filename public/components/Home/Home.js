@@ -1,5 +1,5 @@
 import data from "../data.js";
-import dataSugerenias from "../dataSugerencias.js";
+import dataSugerencias from "../dataSugerencias.js";
 export class Home extends HTMLElement {
     constructor() {
         super();
@@ -9,7 +9,15 @@ export class Home extends HTMLElement {
         this.render();
     }
     render() {
-        const compts = data.map(({ imageprofile, nameuser, location, imagecontent, likes, comentuser1, comentuser2, viewcoments, days, phtoprofile, username }) => ` <section>
+        const compts1 = dataSugerencias.map(({ perfil, user, infouser }) => `<section>
+        <my-sugerencias
+        perfil="${perfil}"
+        user="${user}"
+        infouser="${infouser}"
+        ></my-sugerencias>
+        </section>
+    `);
+        const compts = data.map(({ imageprofile, nameuser, location, imagecontent, likes, comentuser1, comentuser2, viewcoments, fecha, phtoprofile, username }) => ` <section>
             <my-profile
             nameuser="${nameuser}"
             imageprofile="${imageprofile}"
@@ -19,28 +27,20 @@ export class Home extends HTMLElement {
             comentuser1="${comentuser1}"
             comentuser2="${comentuser2}"
             viewcoments="${viewcoments}"
-            fechapublicacion="${days}"
+            fecha="${fecha}"
             phtoprofile="${phtoprofile}"
             username="${username}"
             ></my-profile>
             </section>
         `);
-        const compts1 = dataSugerenias.map(({ perfil, user, infouser }) => `<section>
-        <my-sugerencias
-        perfil="${perfil}"
-        user="${user}"
-        infouser="${infouser}"
-        ></my-sugerencias>
-        </section>
-    `);
         if (!this.shadowRoot)
             return;
         this.shadowRoot.innerHTML = `<section>
         <my-encabezado></my-encabezado>
         <my-sugerencia></my-sugerencia>
         <my-historias></my-historias>
-        ${compts.join("")}
         ${compts1.join("")}
+        ${compts.join("")}
         </section>
         `;
     }

@@ -46,6 +46,7 @@ class MyHistorias extends HTMLElement {
             <link rel="stylesheet" href="./components/historias/style.css">
                 <section class="rectHistorias">
                     <img class="flecha" src="./assets/Post/Users/flecha.png"/>
+                    <img class="flecha2" src="./assets/Post/Users/flecha.png"/>
                     ${a.join("")}
                 </section>
         `;

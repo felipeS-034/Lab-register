@@ -29,7 +29,8 @@
     margin-top: 80px;
 }
 .nameuser{
-    font-family: Poppins;
+    font-family:'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-weight: light;
     color: rgb(0, 0, 0);
     position: absolute;
     font-size: 10px;
@@ -38,7 +39,7 @@
 }
 
 .location{
-    font-family: Poppins;
+    font-family: Helvetica;
     color: black;
     position:absolute;
     font-size: 10px;
@@ -48,7 +49,7 @@
 
 
 .like{
-    font-family: Poppins;
+    font-family: Helvetica;
     color: rgb(0, 0, 0);
     position: absolute;
     font-size: 10px;
@@ -57,7 +58,7 @@
 }
 
 .comentuser{
-    font-family: Poppins;
+    font-family: Helvetica;
     color: rgb(0, 0, 0);
     position: absolute;
     font-size: 10px;
@@ -69,7 +70,7 @@
 
 
 .views{
-    font-family: Poppins;
+    font-family: Helvetica;
     color: gray;
     font-weight: 300;
     position: absolute;
@@ -81,7 +82,7 @@
 
 
 .day{
-    font-family: Poppins;
+    font-family: Helvetica;
     color: gray;
     font-weight: 300;
     position: absolute;

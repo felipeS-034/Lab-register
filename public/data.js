@@ -8,7 +8,7 @@ const data = [
         "comentuser1": "kata_1303",
         "comentuser2": "holi",
         "viewcoments": "View all 7 comments",
-        "fecha": "10 DAYS AGO",
+        "days": "10 DAYS AGO",
         "phtoprofile": "./assets/historias/me.png",
         "username": "hola"
     },
@@ -21,7 +21,7 @@ const data = [
         "comentuser1": "luisa.11:11",
         "comentuser2": "holi",
         "viewcoments": "View all 5 comments",
-        "fecha": "11 DAYS AGO",
+        "days": "11 DAYS AGO",
         "phtoprofile": "./assets/historias/chica.png",
         "username": "hola"
     },
@@ -34,7 +34,7 @@ const data = [
         "comentuser1": "Richi-jeje",
         "comentuser2": "program es lo mio",
         "viewcoments": "View all 5 comments",
-        "fecha": "13 DAYS AGO",
+        "days": "13 DAYS AGO",
         "phtoprofile": "./assets/historias/chica2.png",
         "username": "hola"
     },
@@ -47,7 +47,7 @@ const data = [
         "comentuser1": "isabella.bogota",
         "comentuser2": "holi",
         "viewcoments": "View all 3 comments",
-        "fecha": "15 DAYS AGO",
+        "days": "15 DAYS AGO",
         "phtoprofile": "./assets/historias/man.png",
         "username": "hola"
     },
@@ -60,7 +60,7 @@ const data = [
         "comentuser1": "avitery17",
         "comentuser2": "broo",
         "viewcoments": "View all 5 comments",
-        "fecha": "4 DAYS AGO",
+        "days": "4 DAYS AGO",
         "phtoprofile": "./assets/historias/isabella.png",
         "username": "hola"
     },
@@ -73,7 +73,7 @@ const data = [
         "comentuser1": "sara_rozo_23",
         "comentuser2": "tampoco somos ni seremos",
         "viewcoments": "View all 5 comments",
-        "fecha": "7 DAYS AGO",
+        "days": "7 DAYS AGO",
         "phtoprofile": "./assets/historias/man2.png",
         "username": "hola"
     },
@@ -86,7 +86,7 @@ const data = [
         "comentuser1": "andres_santacruz03",
         "comentuser2": "I'm the best",
         "viewcoments": "View all 600K comments",
-        "fecha": "1 DAYS AGO",
+        "days": "1 DAYS AGO",
         "phtoprofile": "./assets/historias/andrea.png",
         "username": "hola"
     }

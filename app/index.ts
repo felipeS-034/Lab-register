@@ -3,7 +3,8 @@ import "./components/index.js";
 enum Screens {
     login,
     register,
-    home
+    home,
+    addPost
 }
 
 class AppContainer extends HTMLElement{
