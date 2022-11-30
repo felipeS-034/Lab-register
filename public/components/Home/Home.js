@@ -37,8 +37,8 @@ export class Home extends HTMLElement {
             return;
         this.shadowRoot.innerHTML = `<section>
         <my-encabezado></my-encabezado>
-        <!--<my-historias></my-historias>--->
         <my-sugerencia></my-sugerencia>
+        <my-historias></my-historias>
         ${compts.join("")}
         ${compts1.join("")}
         </section>

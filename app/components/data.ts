@@ -57,7 +57,7 @@ const data: DataShape[] = [
  
      {
          "imageprofile" : "./assets/Post/Users/Isabella.jpg",
-         "nameuser" : "isabella.bogota",
+         "nameuser" : "isabella.B",
          "location" : "Perdida",
          "imagecontent" : "./assets/Post/Contenido/Rusia.jpg",
          "likes" : "500 likes",
@@ -85,7 +85,7 @@ const data: DataShape[] = [
  
      {
          "imageprofile" : "./assets/Post/Users/sarag.jpg",
-         "nameuser" : "sara_rozo_23",
+         "nameuser" : "sararozo_23",
          "location" : "Perdida",
          "imagecontent" : "./assets/Post/Contenido/Paisaje.jpg",
          "likes" : "500 likes",

@@ -1,4 +1,5 @@
 import "./Encabezado/Encabezado.js";
+import "./Historias/Historias.js";
 import "./Mesugerencia/Sugerencia.js";
 import "./Profile/Profile.js";
 export { Form } from "./Form/Form.js";

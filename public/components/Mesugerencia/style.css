@@ -1,17 +1,8 @@
-.cuadradoPrincipal{
-    position: relative;
-    width: 300px;
-    height: 100px;
-    background: rgba(248, 44, 238, 0);
-    left: 980px;
-    margin-top: 35px;
-}
-
 .userimg{
     position: absolute;
     width: 60px;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 70px;
+    margin-left: 900px;
     
 
 }
@@ -20,8 +11,8 @@
     font-family: Helvetica;
     position: absolute;
     font-size: 10px;
-    margin-top: 25px;
-    margin-left: 80px;
+    margin-top: 85px;
+    margin-left: 965px;
     color: gray;
 
 }
@@ -30,8 +21,8 @@
     font-family: Helvetica;
     position: absolute;
     font-size: 10px;
-    margin-top: 40px;
-    margin-left: 80px;
+    margin-top: 103px;
+    margin-left: 965px;
     color: rgb(125, 120, 120);
     font-weight: 400;
 }
@@ -40,8 +31,8 @@
         font-family: Helvetica;
         position: absolute;
         font-size: 8px;
-        margin-top: 25px;
-        margin-left: 240px;
+        margin-top: 85px;
+        margin-left: 1085px;
         color: rgb(0, 132, 255);
         font-weight: 700;
 }
@@ -50,8 +41,8 @@
     font-family: Helvetica;
     position: absolute;
     font-size: 12px;
-    margin-top: 80px;
-    margin-left: 10px;
+    margin-top: 145px;
+    margin-left: 900px;
     color: gray;
     font-weight: 700;
 }
@@ -60,8 +51,8 @@
     font-family: Helvetica;
     position: absolute;
     font-size: 12px;
-    margin-top: 80px;
-    margin-left: 240px;
+    margin-top: 145px;
+    margin-left: 1085px;
     color: rgb(0, 132, 255);
     font-weight: 700;
 }

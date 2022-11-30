@@ -1,0 +1,39 @@
+.rectHistorias{
+    position: relative;
+    background-color: white;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 10px;
+    width: 350px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: row;
+}
+
+.fotoPerfilHistorias{
+    width: 40px;
+    left:65px;
+    top:4px;
+    border-radius: 50%;
+
+}
+
+.nombreUsuarioHistorias{
+    font-family: Helvetica;
+    width: 40px;
+    left: 15px;
+    color: black;
+    font-size: 8px;
+   
+}
+
+.flecha{
+    width: 30px;
+    left: 310px;
+    top:20px;
+    position: absolute;
+}
