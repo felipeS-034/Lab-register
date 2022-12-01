@@ -16,7 +16,6 @@ export class Register extends HTMLElement {
                     const event = new CustomEvent("Welcome", {
                         composed: true
                     });
-                    console.log(this);
                     this.dispatchEvent(event);
                 }
                 else {
