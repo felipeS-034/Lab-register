@@ -1,5 +1,5 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
-import { getFirestore, collection, query, where, addDoc, getDocs, onSnapshot } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore.js";
+import { getFirestore, collection, query, where, addDoc, getDocs } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore.js";
 
 
 
@@ -56,3 +56,24 @@ const db = getFirestore(app);
         return false;
     }
   }
+
+
+  /*export const addPost = async ({ username, publicacion, comentario }: { username: string; publicacion: string; comentario: string; }) => {
+    
+    try {
+        const docRef = await addDoc(collection(db,'posts'), {
+          nameuser,
+          image,
+          coment,
+        });
+        console.log(docRef.id);
+        return true;
+    } catch (error) {
+        console.error(error);
+        return false;
+    }
+}
+
+export interface DataP extends newPost {
+    data: () => newPost;
+}*/

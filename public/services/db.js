@@ -46,3 +46,22 @@ export const addUser = ({ email, password }) => __awaiter(void 0, void 0, void 0
         return false;
     }
 });
+/*export const addPost = async ({ username, publicacion, comentario }: { username: string; publicacion: string; comentario: string; }) => {
+  
+  try {
+      const docRef = await addDoc(collection(db,'posts'), {
+        nameuser,
+        image,
+        coment,
+      });
+      console.log(docRef.id);
+      return true;
+  } catch (error) {
+      console.error(error);
+      return false;
+  }
+}
+
+export interface DataP extends newPost {
+  data: () => newPost;
+}*/ 

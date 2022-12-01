@@ -42,6 +42,11 @@ export class Home extends HTMLElement{
             </section>
         `)
 
+        /*const comptsPost = this.newposts.map(({username, publicacion}) => `
+        username="${username}"
+        publicacion="${publicacion}"
+        `)*/
+
         if(!this.shadowRoot) return;
         this.shadowRoot.innerHTML = `<section>
         <my-encabezado></my-encabezado>
