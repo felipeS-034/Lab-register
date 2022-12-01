@@ -1,30 +1,35 @@
-.userimg {
+.perfil {
     width: 35px;
     border-radius: 50%;
+    position: absolute;
     margin-left: 900px;
+    margin-top: 20px;
 }
 
 .user {
-    font-family: Poppins;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 9pt;
-    margin-left: 55px;
-    margin-top: 2px;
     color: rgb(63, 63, 63);
+    margin-top: 20px;
+    margin-left: 950px;
+    position: absolute;
 }
 
 .cambio {
-    font-family: Poppins;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 13px;
     color: rgb(65, 170, 255);
-    margin-top: 10px;
-    right: 20px;
+    position: absolute;
+    margin-left: 1085px;
+    margin-top: 25px;
 }
 
 .infouser {
-    font-family: Poppins;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 10px;
     font-weight: 500px;
     color: rgb(124, 124, 124);
-    margin-left: 55px;
-    margin-top: 20px;
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 40px;
 }

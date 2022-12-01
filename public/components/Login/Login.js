@@ -32,12 +32,21 @@ export class Login extends HTMLElement {
         <link rel="stylesheet" href=" ./components/Login/style.css"
         <section>
         <div class="contenedor">
-            <image class="logo" src="./assets/logo.png"></image>
+            <image class="logo" src="./assets/logo.png" alt="Logo instagram"></image>
         </div>
         <div class="contenedor2">
-            <h1 class="info">¿No tienes una cuenta? <font color="blue">Registrate</font></h1>
-            <h1 class="descarga">Descarga la app</h1>
-            <image class="descargaApp" src="./assets/linkdescarga.png"></image>
+            <p class="info">¿No tienes una cuenta? <font color="blue">Registrate</font></p>
+            <p class="descarga">Descarga la app</p>
+            <image class="descargaApp" src="./assets/linkdescarga.png" alt="Icono para descargar la aplicación"></image>
+        </div>
+
+        <div class="contenedor3">
+        <image class="opciones" src="./assets/Fb.png" alt="Boton inicia con Facebook"></image>
+        <h1 class="forget">¿Se te olvidó tu contraseña?</h1>
+        <hr class="linea">
+        <h1 class="texto">O</h1>
+        <hr class="linea2">
+            
         </div>
         <app-form></app-form>
         </section>

@@ -36,7 +36,7 @@ class MyHistorias extends HTMLElement {
     render() {
         const a = data.map((profile)=> `
         <section>
-        <img class="fotoPerfilHistorias" src="${profile.imageprofile}"/>
+        <img class="fotoPerfilHistorias" src="${profile.imageprofile}"/ alt="Foto de perfil usuario">
         <h1 class="nombreUsuarioHistorias">${profile.nameuser}</h1>
         </section>
         `);
@@ -45,8 +45,7 @@ class MyHistorias extends HTMLElement {
             this.shadowRoot.innerHTML = `
             <link rel="stylesheet" href="./components/historias/style.css">
                 <section class="rectHistorias">
-                    <img class="flecha" src="./assets/Post/Users/flecha.png"/>
-                    <img class="flecha2" src="./assets/Post/Users/flecha.png"/>
+                    <img class="flecha" src="./assets/Post/Users/flecha.png"/ alt="Icono flecha para navegar entre historias">
                     ${a.join("")}
                 </section>
         `;

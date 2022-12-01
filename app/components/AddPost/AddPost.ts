@@ -1,4 +1,4 @@
-/*import { addPost } from "../../services/db.js";
+//import { addPost } from "../../services/db.js";
 
 export class  AddPost extends HTMLElement{
     nameuser = "";
@@ -13,7 +13,7 @@ export class  AddPost extends HTMLElement{
     connectedCallback(){
         this.render();
 
-        const btn = this.shadowRoot?.querySelector("button");
+        /*const btn = this.shadowRoot?.querySelector("button");
         btn?.addEventListener("click", async ()=>{
             
             if(this.nameuser && this.imagecontent && this.comentuser2) {
@@ -37,7 +37,7 @@ export class  AddPost extends HTMLElement{
             } else {
                 alert("Missing fields");
             }
-        });
+        });*/
 
         const usernameInput = this.shadowRoot?.querySelector('#username');
         const imageInput = this.shadowRoot?.querySelector('#image');
@@ -62,7 +62,7 @@ export class  AddPost extends HTMLElement{
     render(){
         if(!this.shadowRoot) return;
         this.shadowRoot.innerHTML = `
-        <article>
+        <section>
         <link rel="stylesheet" href="./components/Form/style.css">
             <div class="input">
                 <input class="input__field" type="text" placeholder="Username" id="username"/>
@@ -78,9 +78,9 @@ export class  AddPost extends HTMLElement{
             
             <button type="submit">Create post</button>
             
-        </article>
+        </section>
         `
     }
 }
 
-customElements.define("app-add-post", AddPost);*/
+customElements.define("app-add-post", AddPost);

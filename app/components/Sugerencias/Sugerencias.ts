@@ -46,9 +46,9 @@ class MySugerencias extends HTMLElement{
         
         if(this.shadowRoot){
             this.shadowRoot.innerHTML = `
-            <link rel="stylesheet" href=" ./components/Sugerencias/style.css"
+            <link rel="stylesheet" href="./components/Sugerencias/style.css"
             <section>
-            
+            <image class="perfil" src="${this.perfil}" alt="Foto de perfil sugerencias"></image>
                 <h1 class="user">${this.user}</h1>
                 <h1 class="infouser">${this.infouser}</h1>
                 <h1 class="cambio">Seguir</h1>

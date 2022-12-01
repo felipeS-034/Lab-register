@@ -46,17 +46,17 @@ class MyProfile extends HTMLElement {
             <link rel="stylesheet" href="./components/Profile/style.css"
             <section>
                 <div class="cartapost">
-                    <image class="points"src="./assets/Post/botones/3points.png"></image>
-                    <image class="Corazon" src="./assets/Post/botones/like.png"></image>
-                    <image class="compartir" src="./assets/Post/botones/Share.png"></image>
-                    <image class="coment" src="./assets/Post/botones/Comments.png"></image>
-                    <image class="guardar" src="./assets/Post/botones/Save.png"></image>
-                    <image class="cont" src="./assets/Post/botones/contenido.jpg"></image>
+                    <image class="points"src="./assets/Post/botones/3points.png" alt="Boton opciones"></image>
+                    <image class="Corazon" src="./assets/Post/botones/like.png" alt="Boton like"></image>
+                    <image class="compartir" src="./assets/Post/botones/Share.png" alt="Boton compartir"></image>
+                    <image class="coment" src="./assets/Post/botones/Comments.png" alt="Boton comentario"></image>
+                    <image class="guardar" src="./assets/Post/botones/Save.png" alt="Boton guardar post"></image>
+                    <image class="cont" src="./assets/Post/botones/contenido.jpg" alt="Botones deslizar"></image>
 
-                    <img class="perfil"src="${this.imageprofile}"></img>
+                    <img class="perfil"src="${this.imageprofile}" alt="Foto perfil usuario"></img>
                     <h1 class="nameuser">${this.nameuser}</h1>
                     <h1 class="location ">${this.location}</h1>
-                    <image class="contenido"src="${this.imagecontent}"></image>
+                    <image class="contenido"src="${this.imagecontent}" alt="Imagen de contenido"></image>
                     <h1 class="like"><b>${this.likes} Likes</b></h1>
                     <h1 class="comentuser"><b>${this.comentuser1}</b> ${this.comentuser2}</h1>
                     <h1 class="views">${this.viewcoments}</h1>

@@ -4,7 +4,6 @@ enum Screens {
     login,
     register,
     home,
-    addPost
 }
 
 class AppContainer extends HTMLElement{
@@ -15,8 +14,9 @@ class AppContainer extends HTMLElement{
         this.attachShadow({mode: 'open'});
     }
 
-    connectedCallback(){
+    connectedCallback() {
         this.render();
+      
 
         const login = this.shadowRoot?.querySelector("app-login");
         login?.addEventListener("login-success", ()=>{

@@ -21,6 +21,7 @@
     top: 15px;
     left: 600px;
     position: absolute;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
 }
 
 /*iconos*/

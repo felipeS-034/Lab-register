@@ -20,10 +20,14 @@
     width: 350px;
     height: 65px;
     position: absolute;
+    display: flex;
     top: 465px;
-    right: 753px;
+    margin-left: 590px;
     border: 1px solid rgba(var(--b6a,219,219,219),1);
 }
+
+
+
 
 .info {
     position: absolute;
@@ -60,4 +64,55 @@
     width: 280px;
     top: 115px;
     left: 35px;
+}
+
+/*contenedor para facebook*/
+
+.contenedor3 {
+
+    width: 350px;
+    height: 65px;
+    position: absolute;
+    display: flex;
+    margin-top: 200px;
+    margin-left: 590px;
+}
+
+.opciones {
+    position: absolute;
+    width: 250px;
+    top: 175px;
+    left: 41px;
+}
+
+.linea{
+    position: absolute;
+    width: 100px;
+    margin-top: 45%;
+    margin-left: 12%;
+}
+
+.linea2{
+    position: absolute;
+    width: 100px;
+    margin-top: 45%;
+    margin-left: 57%;
+}
+
+.texto{
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 10px;
+    color: gray;
+    margin-top: 44%;
+    margin-left: 47%;
+}
+
+.forget{
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 10px;
+    color: gray;
+    margin-top: 37%;
+    margin-left: 30%;
 }
