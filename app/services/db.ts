@@ -58,7 +58,7 @@ const db = getFirestore(app);
   }
 
 
-  /*export const addPost = async ({ username, publicacion, comentario }: { username: string; publicacion: string; comentario: string; }) => {
+  export const addPost = async ({ nameuser, image, coment }: { nameuser: string; image: string; coment: string; }) => {
     
     try {
         const docRef = await addDoc(collection(db,'posts'), {
@@ -73,7 +73,3 @@ const db = getFirestore(app);
         return false;
     }
 }
-
-export interface DataP extends newPost {
-    data: () => newPost;
-}*/

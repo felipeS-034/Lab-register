@@ -66,8 +66,9 @@ export class CrearPosts extends HTMLElement {
             this.shadowRoot.innerHTML = `
             <link rel="stylesheet" href="./components/formulario/stylesLogin.css">
             <article class="input">
-                <input id="username" type="text" placeholder="username">
-                <input id="publicacion" type="text" placeholder="publicacion/imagen">
+                <input id="username" type="text" placeholder="nameuser">
+
+                <input id="publicacion" type="text" placeholder="imagen/imagen">
                 <input id="comentario" type="text" placeholder="comentario">
                 <button id="crear" type="submit">Crear</button>
             </article>
