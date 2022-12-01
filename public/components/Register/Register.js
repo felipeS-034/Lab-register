@@ -55,18 +55,6 @@ export class Register extends HTMLElement {
 
         <app-form></app-form>
         </section>
-
-
-
-
-
-
-
-
-
-
-
-        <!--<image class="mockup" src="./assets/telefono.png"></image>-->
         `;
     }
 }

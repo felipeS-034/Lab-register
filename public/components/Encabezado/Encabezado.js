@@ -4,14 +4,7 @@ class MyEncabezado extends HTMLElement {
         this.attachShadow({ mode: "open" });
     }
     connectedCallback() {
-        var _a;
         this.render();
-        const createPostButton = (_a = this.shadowRoot) === null || _a === void 0 ? void 0 : _a.querySelector("#create-post");
-        createPostButton === null || createPostButton === void 0 ? void 0 : createPostButton.addEventListener('click', () => {
-            console.log('From Menu');
-            const event = new CustomEvent("to-create-post", { composed: true });
-            this.dispatchEvent(event);
-        });
     }
     render() {
         if (this.shadowRoot) {
